@@ -1,0 +1,44 @@
+This is how to run the Flutter code.
+
+First, open WSL and go to the Flutter project:
+
+cd ~/Dev/frontend-development/frontend_app
+
+Then run the Flutter project on Chrome:
+
+flutter run -d chrome
+
+The code that gets executed is:
+
+lib/main.dart
+
+So if the code you want to run is inside:
+
+lib/learning/
+
+make sure main.dart imports the file you want to run.
+
+Example:
+
+import 'learning/ListView.dart';
+
+Then run:
+
+flutter run -d chrome
+
+This will open the Flutter application in Chrome.
+
+While the app is running:
+
+r
+Hot Reload
+
+R
+Hot Restart
+
+q
+Quit
+
+That's it.
+
+"Simply Lovely."
